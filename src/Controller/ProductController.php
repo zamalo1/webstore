@@ -4,25 +4,29 @@
 namespace App\Controller;
 
 
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
-class ProductController
+class ProductController extends AbstractController
 {
     /**
      * @Route("/")
      */
     public function homepage()
     {
-        return new Response("mazalov penis");
+        return new Response("mazalo");
     }
 
     /**
-     * @Route("/details{slug}")
+     * @Route("/details")
      */
     public function details()
     {
-        $slug=1;
-        return new Response("kurcina=$slug");
+
+        return $this->render('product/details.html.twig',[
+            'pitanje'=> 'who are you',
+            'slug'=>2
+        ]);
     }
 }
