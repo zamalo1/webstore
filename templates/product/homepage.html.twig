@@ -1,0 +1,23 @@
+
+{% extends 'base.html.twig' %}
+{% block body %}
+    <div class="row">
+        <div class="elrow">
+            <div id="mazalo"><img src="{{ asset('images/images/laptop77.jpg') }}"></div>
+            <p id="p1"><?=$product->racunar></p>
+            <p id="cena1"><b>Cena: 3222</b></p><br>
+            <p id="likeMessage"></p>
+            <div id="likesDiv">
+                <button class="likesButton" name="likesButton"></button>
+                <input class="likesQuantity" readonly="readonly">
+                <input class="unlikesQuantity" readonly="readonly">
+                <button class="unlikesButton" name="unlikesButton" ></button>
+            </div>
+            <input id="kol" type="number" value="1" min="1" max="10" name="kolicina">
+            <button class="ElrowButton"  name="add">Dodaj u korpu</button>
+            <a href="{{ path('app_details', {id: '1'}) }}"><button class="ElrowButton" name="dettails">Detaljnije</button></a>
+        </div>
+        <?php } ?>
+    </div>
+
+{% endblock %}

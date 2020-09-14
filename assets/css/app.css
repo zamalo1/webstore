@@ -1,0 +1,928 @@
+body{
+    width: 1200px;
+    height: auto;
+    padding: 5px;
+    background-color: rgb(245,236,200);
+}
+header{
+    width: 890px;
+    height: 172px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    position: relative;
+    border-radius: 5px;
+}
+#logo{
+    float: left;
+    width: 220px;
+    height: 61px;
+
+    background-repeat: no-repeat;
+    background-color: white;
+    padding: 5px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+h1{
+    float: left;
+    width:  500px;
+    height: 52px;
+    text-align: center;
+    background: white;
+    margin: 20px;
+    padding: 10px;
+    font-size: 50;
+    font-family: Cambria;
+}
+#login{
+    background-color: #ffc002;
+    text-align: center;
+    width: 70px;
+    height: 40px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 35px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 17;
+}
+#logout{
+    background-color: #ffc002;
+    text-align: center;
+    width: 70px;
+    height: 40px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 35px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 17;
+}
+#cart{
+    background-repeat: no-repeat;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-right: 50px;
+    margin-top: -15px;
+    border-radius: 10px;
+    border-style: none;
+
+}
+#nav{
+    width: 1140px;
+    height: 60px;
+    background-color: #024378;
+    clear: both;
+}
+#proizvodi{
+    height: 60px;
+    width: 250px;
+    background-color: #ffc002;
+    float: left;
+    position: relative;
+    text-align: center;
+    border-radius: 40px;
+
+}
+#proizvodi h2{
+
+}
+#proizvodi:hover ul{
+    opacity: 1;
+    display: block;
+}
+ul{
+    list-style: none;
+    font-size: 40px;
+    background-color: #ffc002;
+    height: 630px;
+    width: 250px;
+    position: absolute;
+    top: 20px;
+    padding: 25px;
+    padding-left: 35px;
+    padding-top: 50px;
+    float: left;
+    opacity: 0;
+    display: none;
+    text-align: left;
+
+}
+ul li{
+    margin: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 20px;
+
+}
+#button1{
+    float: right;
+    width: 100px;
+    height: 60px;
+    background-color: #024378;
+    font-size: 16;
+    color: white;
+    border-style: none;
+}
+#button2{
+    float: right;
+    width: 100px;
+    height: 60px;
+    background-color: #024378;
+    font-size: 16;
+    color: white;
+    border-style: none;
+}
+#button3{
+    float: right;
+    width: 110px;
+    height: 60px;
+    background-color: #024378;
+    font-style: normal;
+    font-size: 16;
+    color: white;
+    border-style: none;
+}
+
+main{
+    width: 1140px;
+    height: auto;
+    background-color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+    overflow: hidden;
+}
+.row{
+    width: 1100px;
+    height: auto;
+    background-color: #479DC9;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+}
+.elrow{
+    width: 250px;
+    height:535;
+    background-color: white;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+#mazalo{
+    width: 250px;
+    height: 215px;
+    background-repeat: no-repeat;
+}
+#p1{
+    background-color: white;
+    font-size: 20;
+    text-align: center;
+    height: 70px;
+}
+#cena1{
+    background-color: white;
+    font-size: 32;
+    height: 30px;
+}
+.ElrowButton{
+    width: 100px;
+    height: 40px;
+    margin-right: 20px;
+    margin-top: -5px;
+    border-radius: 25px;
+    background-color: #ffc002;
+    float: right;
+}
+footer{
+    width: 1140px;
+    height: 365px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: white;
+    overflow: hidden;
+}
+#f1{
+    width: 1120px;
+    height: 300px;
+    margin:10px;
+    background-color: rgb(65,60,60);
+}
+.footer1{
+    width: 267px;
+    height: 280px;
+
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.footer1 h2{
+    width: 250px;
+    margin-top: 15px;
+    margin-left: 8px;
+    background-color: rgb(65,60,60);
+    text-align: center;
+    font-size: 20;
+    color: green;
+
+}
+.footer1 p{
+    width: 180px;
+    height: auto;
+    background-color: rgb(65,60,60);
+    margin-top: -5px;
+    margin-left: 70px;
+    color: white;
+}
+.footer1 button{
+    width: 45;
+    height: 40px;
+    background-color: rgb(65,60,60);
+    margin-left: 15px;
+    background-repeat: no-repeat;
+}
+#facebook{
+
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    border-style: none;
+}
+#twitter{
+
+    border-radius: 10px;
+    border-style: none;
+    width: 45px;
+    height: 45px;
+}
+#youtube{
+
+    border-radius: 10px;
+    width: 45px;
+    height: 45px;
+    border-style: none;
+}
+#instagram{
+
+    background-repeat: inherit;
+    border-radius: 10px;
+    border-style: none;
+    width: 45px;
+    height: 45px;
+
+}
+.fbottom{
+    height: 35px;
+    width: 1120px;
+    background-color: rgb(100,98,98);
+    text-align: center;
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 20;
+    padding-top: 10px;
+}
+
+a{
+    text-decoration-line: none;
+    color: black;
+}
+
+#registration{
+    width: 300px;
+    height: 400px;
+    background-color: #024378;
+    margin-left: 420px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 350px;
+}
+#registration h2{
+    color: white;
+    font-size: 32;
+}
+#loginUser{
+    width: 300px;
+    height: 320px;
+    background-color: #024378;
+    margin-left: 420px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 320px;
+}
+#loginUser h2{
+    color: white;
+    font-size: 32;
+    margin-top: 200px;
+
+}
+#loginUser a {
+    font-size: 15;
+    color: white;
+}
+table {
+    margin: auto;
+    background-color: white;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    border: black solid 2px;
+
+}
+table tr {
+    border-bottom: black solid 1px;
+}
+#naslovKorpe{
+    text-align: center;
+    margin-top: 40px;
+}
+#kolicina{
+    text-align: center;
+    width: 30px;
+    margin-left: 17px;
+    border-style: none;
+}
+.shopping{
+    width: 150px;
+    height: 20px;
+    background-color: #ffc002;
+    border: solid black 2px;
+    margin-bottom: 50px;
+    float: left;
+    margin-left: 300px;
+    padding-top: 3px;
+    padding-left: 7px;
+    border-radius: 5px;
+}
+#countCart{
+    background-color: #ffc002;
+    font-size: 12;
+    float: right;
+    width: 15px;
+    height: 15px;
+    margin-right: 80px;
+    margin-top: 32px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+}
+#ukupno{
+    padding-top: 5px;
+    text-align: center;
+    width: 100px;
+    height: 25px;
+    background-color: white;
+    border: solid black 2px;
+    float: right;
+    margin-right: 372px;
+    margin-top: -25px;
+    border-radius: 5px;
+}
+#ukupnoTekst{
+    margin-top: -27px;
+    margin-left: 700px;
+}
+#finish{
+    float: right;
+    margin-top: 15px;
+    margin-right: -108px;
+    border-radius: 10px;
+    background-color: #024378;
+    height: 35px;
+    color:#ffc002;
+    margin-bottom: 200px;
+}
+#emptyCart{
+    margin-left: 300px;
+    border-radius: 10px;
+    color:#ffc002;
+    background-color:#024378 ;
+    height: 25px;
+}
+#praznaKorpa{
+    margin-left: 430px;
+    margin-bottom: 70px;
+}
+#minus{
+    float: right;
+    margin-right:-5px;
+    margin-left: 6px;
+    margin-top: -22px;
+}
+#plus{
+    float: left;
+    margin-right:-16px;
+}
+#kol{
+    margin-left: 20px;
+    margin-bottom: 15px;
+    border: solid black 1.5px;
+    width: 200px;
+    text-align: center;
+}
+#ukupno1{
+    width: 80px;
+    margin-left: 20px;
+    text-align: center;
+    border-style: none;
+}
+#cena{
+    width: 100px;
+    text-align: center;
+    border-style: none;
+}
+#sveukupno{
+    width: 95px;
+    text-align: center;
+    border-style: none;
+}
+#likeProduct{
+    width: 20px;
+    height: 20px;
+    margin-right: 80px;
+    margin-top: -30px;
+
+}
+#likeMessage{
+    width: 230px;
+    height: 20px;
+    background: white;
+    margin-left: 5px;
+    margin-top: -35px;
+    color: green;
+    text-align: center;
+    float: left;
+}
+#likesDiv{
+    width: 220px;
+    height: 30px;
+    background-color: white;
+    margin-left:10px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.likesButton{
+    width: 25px;
+    height: auto;
+    float: left;
+    margin-left: 50px;
+    margin-top:3px;
+    margin-bottom: 3px;
+    background: white;
+    border-radius: 0px;
+    border: none;
+}
+.productLiked{
+    width: 25px;
+    height: auto;
+    float: left;
+    margin-left: 50px;
+    margin-top:3px;
+    margin-bottom: 3px;
+    background: green;
+    border-radius: 0px;
+    border: none;
+}
+.likesButton img{
+    margin-left: -3px;
+    margin-top: 0.5px;
+    margin-bottom: 1px;
+}
+.unlikesButton{
+    width: 25px;
+    height: auto;
+    float: left;
+    margin-left: 5px;
+    margin-top:3px;
+    margin-bottom: 3px;
+    background: white;
+    border-radius: 0px;
+    border: none;
+}
+.productDisliked{
+    width: 25px;
+    height: auto;
+    float: left;
+    margin-left: 5px;
+    margin-top:3px;
+    margin-bottom: 3px;
+    background: red;
+    border-radius: 0px;
+    border: none;
+}
+.unlikesButton img{
+    margin-left: -3.5px;
+    margin-top: 0.5px;
+    margin-bottom: 1px;
+}
+.likesQuantity{
+    width: 20px;
+    height: 20px;
+    margin-left: 7px;
+    margin-top: 4.5px;
+    float: left;
+    text-align: center;
+}
+.quantityLiked{
+    width: 20px;
+    height: 20px;
+    margin-left: 7px;
+    margin-top: 4.5px;
+    float: left;
+    text-align: center;
+    background-color: green;
+}
+.unlikesQuantity{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 4.5px;
+    float: left;
+    text-align: center;
+}
+.quantityDisliked{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 4.5px;
+    float: left;
+    text-align: center;
+    background-color: red;
+}
+#likeProduct img{
+    width:25px;
+    height:25px;
+    background-color: white;
+    margin-left: -10px;
+    margin-top: -5px;
+}
+#likeQ{
+    width: 40px;
+    text-align: center;
+    margin-left: 180px;
+    margin-top: -30px;
+}
+#mainDet{
+    width: 1140px;
+    height: auto;
+    background-color: white;
+}
+#naslovDet{
+    width: 1040px;
+    height: 50px;
+    background-color: white;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 27;
+}
+#slikaDet{
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 50px;
+    float: left;
+}
+#slikaDet img{
+    border: solid black 1px;
+}
+#cenaDetText{
+    width: 190px;
+    height: 50px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 110px;
+    font-size: 25;
+}
+#cenaDet{
+    width: 180px;
+    height: 50px;
+    background-color: white;
+    float: left;
+    margin-left: 630px;
+    margin-top: -307px;
+    text-align: center;
+    font-size: 35;
+    padding-top: 10px;
+}
+#qtt{
+    width: 300px;
+    height: 60px;
+    float: left;
+    margin-left: 450px;
+    background-color: white;
+    margin-top: -130px;
+}
+#qtt p{
+    float: left;
+    font-size: 17;
+}
+#kolDet{
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 5px;
+    float: left;
+}
+#qtt button{
+    width: 100px;
+    height: 40px;
+    margin-top: 8px;
+    margin-left: 30px;
+    border-radius: 25px;
+    background-color: #ffc002;
+    float: left;
+}
+#likeDiv{
+    width: 350px;
+    height: 60px;
+    background-color: white;
+    float: left;
+    margin-left: 450px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#likeDiv p{
+    float: left;
+}
+#likeDivQ{
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    float: left;
+    margin-top: 8px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+#likeProduct1{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: none;
+    background-color: white;
+    margin-bottom: 30px;
+}
+#commentDiv{
+    width: 1040px;
+    height: auto;
+    background-color: white;
+    overflow: hidden;
+    margin-left: 50px;
+}
+#commentDiv p{
+    margin-left: 850px;
+    margin-top: 5px;
+    color: green;
+
+}
+#commentDiv h2{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#textarea{
+    width: 950px;
+    height: 30px;
+    margin-left: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid black;
+}
+#commentButton{
+    float: right;
+    margin-top: -15px;
+    margin-right: 60px;
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #ffc002;
+}
+#rewCom{
+    margin-top: 100px;
+    padding-left: 60px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#table{
+    width: 960px;
+    margin-left: 40px;
+    padding:  10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    position: relative;
+}
+#msg{
+    position: absolute;
+    background-color: white;
+    color: green;
+    text-align: center;
+    right: 18px;
+    top: 25px;
+    width: 150px;
+
+}
+#userComm{
+    float: left;
+}
+#dateComm{
+    float: right;
+    margin-right: 30px;
+    font-size: 14px;
+    color: darkslategray;
+}
+#text{
+    height: 30px;
+    width: 700px;
+    padding: 5px;
+    padding-top: 10px;
+    float: left;
+}
+#likeComment{
+    width: 115px;
+    line-height: 25px;
+    background: white;
+    float: right;
+    margin-right: 22px;
+    margin-top: 25px;
+}
+.likeButton{
+    width: 23.5px;
+    height: 23px;
+    float: left;
+    background: white;
+    border: none;
+}
+.likedButton{
+    width: 23.5px;
+    height: 23px;
+    float: left;
+    background: white;
+    border: 1px solid green;
+}
+.likeButton img{
+    margin-left: -5px;
+    margin-top: -1px;
+
+}
+.likeQuantity{
+    width: 20px;
+    height: 20px;
+    margin-left: 6.5px;
+    float: left;
+    text-align: center;
+    margin-top: 1px;
+}
+.likedQuantity{
+    width: 20px;
+    height: 20px;
+    margin-left: 6.5px;
+    float: left;
+    text-align: center;
+    margin-top: 1px;
+    background: green;
+}
+.unlikeQuantity{
+    width: 20px;
+    height: 20px;
+    background: white;
+    margin-left: 12px;
+    float: left;
+    text-align: center;
+    margin-top: 1px;
+}
+.unlikedQuantity{
+    width: 20px;
+    height: 20px;
+    background: red;
+    margin-left: 12px;
+    float: left;
+    text-align: center;
+    margin-top: 1px;
+}
+.UnlikeButton{
+    width: 23.5px;
+    height: 23px;
+    float: left;
+    background: white;
+    margin-left: 6.5px;
+    border: none;
+}
+.UnlikedButton{
+    width: 23.5px;
+    height: 23px;
+    float: left;
+    background: red;
+    margin-left: 6.5px;
+    border: none;
+}
+.UnlikeButton img{
+    margin-left: -5px;
+    margin-top: -1px;
+}
+#likesDivDet{
+    width: 120px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    top: 720px;
+    left: 500px;
+}
+#likesDivDet p{
+    width: 150px;
+    height: 20px;
+    background-color: white;
+    margin-left: -15px;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    color: green;
+}
+.likesButtonDet{
+    width: 25px;
+    height: auto;
+    float: left;
+    margin-top:3px;
+    margin-bottom: 3px;
+    margin-left: 5px;
+    background: white;
+    border-radius: 0px;
+    border: none;
+}
+.likedButtonDet{
+    width: 25px;
+    height: auto;
+    float: left;
+    margin-top:3px;
+    margin-bottom: 3px;
+    margin-left: 5px;
+    background: green;
+    border-radius: 0px;
+    border: none;
+}
+.likesButtonDet img{
+    margin-left: -3px;
+    margin-top: 0.5px;
+    margin-bottom: 1px;
+}
+.unlikesButtonDet{
+    width: 25px;
+    height: auto;
+    float: left;
+    margin-left: 5px;
+    margin-top:3px;
+    margin-bottom: 3px;
+    background: white;
+    border-radius: 0px;
+    border: none;
+}
+.unlikedButtonDet{
+    width: 25px;
+    height: auto;
+    float: left;
+    margin-left: 5px;
+    margin-top:3px;
+    margin-bottom: 3px;
+    background: red;
+    border-radius: 0px;
+    border: none;
+}
+.unlikesButtonDet img{
+    margin-left: -3.5px;
+    margin-top: 0.5px;
+    margin-bottom: 1px;
+}
+.likesQuantityDet{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    margin-top: 4.5px;
+    float: left;
+}
+.likedQuantityDet{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    margin-top: 4.5px;
+    float: left;
+    background-color: green;
+}
+.unlikesQuantityDet{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 4.5px;
+    float: left;
+}
+.unlikedQuantityDet{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 4.5px;
+    float: left;
+    background-color: red;
+}
