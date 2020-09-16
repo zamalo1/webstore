@@ -2,13 +2,13 @@
 
 namespace App\Entity;
 
-use App\Repository\ProductRepository;
+use App\Repository\ProductsRepository;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity(repositoryClass=ProductRepository::class)
+ * @ORM\Entity(repositoryClass=ProductsRepository::class)
  */
-class Product
+class Products
 {
     /**
      * @ORM\Id
@@ -33,7 +33,7 @@ class Product
     private $images;
 
     /**
-     * @ORM\Column(type="integer", nullable=true)
+     * @ORM\Column(type="integer")
      */
     private $categoryId;
 
@@ -83,7 +83,7 @@ class Product
         return $this->categoryId;
     }
 
-    public function setCategoryId(?int $categoryId): self
+    public function setCategoryId(int $categoryId): self
     {
         $this->categoryId = $categoryId;
 

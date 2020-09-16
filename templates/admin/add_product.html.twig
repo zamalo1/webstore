@@ -1,0 +1,25 @@
+<title>{% block title %}Admin{% endblock %}</title>
+{% block stylesheets %}
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Spartan&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('StyleAdmin.css') }}">
+{% endblock %}
+{% block body %}
+    <html>
+    <body>
+    <header>
+        <div id="logo"></div>
+        <h1>Add product</h1>
+    </header>
+    <main>
+        {{ form_start(productForm) }}
+        {{ form_widget(productForm) }}
+        <button type="submit" name="upload">Create Product</button>
+        {{ form_end(productForm) }}
+    </main>
+
+    </body>
+
+
+    </html>
+{% endblock %}

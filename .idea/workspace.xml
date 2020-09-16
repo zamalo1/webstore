@@ -11,15 +11,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e982832d-3fd7-4230-8063-20c7e918641a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/AdminController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/UserController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/form/ProductFormType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/admin/add_product.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/symfony2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/webstore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webstore.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/Version20200912213537.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/Version20200914152141.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/Version20200914152300.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Product.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/ProductRepository.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/product/homepage.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/product/homepage.html.twig" afterDir="false" />
@@ -112,6 +119,12 @@
       <path value="$PROJECT_DIR$/vendor/symfony/web-profiler-bundle" />
       <path value="$PROJECT_DIR$/vendor/symfony/asset" />
       <path value="$PROJECT_DIR$/vendor/symfony/webpack-encore-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/vendor/symfony/form" />
+      <path value="$PROJECT_DIR$/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/vendor/symfony/intl" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
     </include_path>
   </component>
   <component name="ProjectId" id="1hKlQmhnInFGcCKlQdZgsj1IvSr" />
@@ -130,7 +143,8 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="Symfony2.SettingsForm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -147,7 +161,12 @@
       <workItem from="1599769030697" duration="1843000" />
       <workItem from="1599773529985" duration="6257000" />
       <workItem from="1599946684453" duration="9510000" />
-      <workItem from="1600085938176" duration="8147000" />
+      <workItem from="1600085938176" duration="10732000" />
+      <workItem from="1600102884252" duration="9303000" />
+      <workItem from="1600170352480" duration="172000" />
+      <workItem from="1600170538331" duration="183000" />
+      <workItem from="1600170734435" duration="729000" />
+      <workItem from="1600171487869" duration="5268000" />
     </task>
     <servers />
   </component>
@@ -167,18 +186,23 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="695" y="272" width="585" height="561" key="NewPhpClassDialog" timestamp="1599769252017">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="782" y="1313" width="412" height="638" key="#com.intellij.ide.util.MemberChooser" timestamp="1600171856456">
+      <screen x="0" y="1080" width="1920" height="1080" />
     </state>
+    <state x="782" y="1313" width="412" height="638" key="#com.intellij.ide.util.MemberChooser/0.1080.1920.1080/67.0.1853.1080@0.1080.1920.1080" timestamp="1600171856456" />
+    <state x="651" y="1331" width="585" height="561" key="NewPhpClassDialog" timestamp="1600173152646">
+      <screen x="0" y="1080" width="1920" height="1080" />
+    </state>
+    <state x="651" y="1331" width="585" height="561" key="NewPhpClassDialog/0.1080.1920.1080/67.0.1853.1080@0.1080.1920.1080" timestamp="1600173152646" />
     <state x="695" y="272" width="585" height="561" key="NewPhpClassDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1599769252017" />
-    <state x="430" y="1245" key="SettingsEditor" timestamp="1600001402095">
+    <state x="430" y="1245" key="SettingsEditor" timestamp="1600171331588">
       <screen x="0" y="1080" width="1920" height="1080" />
     </state>
-    <state x="430" y="1245" key="SettingsEditor/0.1080.1920.1080/67.0.1853.1080@0.1080.1920.1080" timestamp="1600001402095" />
+    <state x="430" y="1245" key="SettingsEditor/0.1080.1920.1080/67.0.1853.1080@0.1080.1920.1080" timestamp="1600171331588" />
     <state x="482" y="188" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1599768753777" />
-    <state x="656" y="1337" width="672" height="678" key="search.everywhere.popup" timestamp="1599946751896">
+    <state x="656" y="1337" width="672" height="678" key="search.everywhere.popup" timestamp="1600256129484">
       <screen x="0" y="1080" width="1920" height="1080" />
     </state>
-    <state x="656" y="1337" width="672" height="678" key="search.everywhere.popup/0.1080.1920.1080/67.0.1853.1080@0.1080.1920.1080" timestamp="1599946751896" />
+    <state x="656" y="1337" width="672" height="678" key="search.everywhere.popup/0.1080.1920.1080/67.0.1853.1080@0.1080.1920.1080" timestamp="1600256129484" />
   </component>
 </project>

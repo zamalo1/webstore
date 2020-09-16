@@ -15,22 +15,28 @@
             <title>MAZALO</title>
             <meta charset="UTF-8">
         </head>
-           <a href="{{ path('app_homepage') }}"><div id="logo"><img src=""></div></a>
+    <header>
+           <div id="logo"><img src="{{ asset('images/images/Untitled.png') }}"></div>
             <h1>ZA-MALO SHOP</h1>
             <button id="login">Login</button>
             <button id="logout" >Log out</button>
             <input id="countCart" value="0">
-            <button id="cart"></button>
+            <button id="cart"><img src="{{ asset('images/images/smece.png') }}"></button>
             <div id="nav">
                 <div id="proizvodi"><h2>PROIZVODI</h2>
+
                     <ul>
-                        <li>ime kategorije</li>
+                        {% for category in categories %}
+                        <li>{{ category.name }}</li>
+                        {% endfor %}
                     </ul>
+
                 </div>
                 <button id="button1">LOKACIJE</button>
                 <button id="button2">O NAMA</button>
                 <button id="button3">KONTAKT</button>
             </div>
+    </header>
     {% endblock %}
         {% block body %}{% endblock %}
     {% block footer %}
