@@ -13,6 +13,9 @@
     </header>
     <main>
         {{ form_start(productForm) }}
+        {{ form_row(productForm.name) }}
+        {{ form_row(productForm.price) }}
+        {{ form_row(productForm.imageFile) }}
         {{ form_widget(productForm) }}
         <button type="submit" name="upload">Create Product</button>
         {{ form_end(productForm) }}

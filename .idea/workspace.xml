@@ -11,25 +11,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e982832d-3fd7-4230-8063-20c7e918641a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Controller/AdminController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/UserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/form/ProductFormType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/add_product.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/UploadHelper.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/webstore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webstore.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/Version20200912213537.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/Version20200914152141.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/Version20200914152300.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Product.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/ProductRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/form/ProductFormType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/form/ProductFormType.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/product/homepage.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/product/homepage.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/add_product.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/add_product.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,6 +117,9 @@
       <path value="$PROJECT_DIR$/vendor/symfony/options-resolver" />
       <path value="$PROJECT_DIR$/vendor/symfony/intl" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/vendor/oneup/flysystem-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1hKlQmhnInFGcCKlQdZgsj1IvSr" />
@@ -166,7 +161,8 @@
       <workItem from="1600170352480" duration="172000" />
       <workItem from="1600170538331" duration="183000" />
       <workItem from="1600170734435" duration="729000" />
-      <workItem from="1600171487869" duration="5268000" />
+      <workItem from="1600171487869" duration="10674000" />
+      <workItem from="1600370639474" duration="6144000" />
     </task>
     <servers />
   </component>
@@ -190,10 +186,10 @@
       <screen x="0" y="1080" width="1920" height="1080" />
     </state>
     <state x="782" y="1313" width="412" height="638" key="#com.intellij.ide.util.MemberChooser/0.1080.1920.1080/67.0.1853.1080@0.1080.1920.1080" timestamp="1600171856456" />
-    <state x="651" y="1331" width="585" height="561" key="NewPhpClassDialog" timestamp="1600173152646">
+    <state x="651" y="1331" width="585" height="561" key="NewPhpClassDialog" timestamp="1600461059641">
       <screen x="0" y="1080" width="1920" height="1080" />
     </state>
-    <state x="651" y="1331" width="585" height="561" key="NewPhpClassDialog/0.1080.1920.1080/67.0.1853.1080@0.1080.1920.1080" timestamp="1600173152646" />
+    <state x="651" y="1331" width="585" height="561" key="NewPhpClassDialog/0.1080.1920.1080/67.0.1853.1080@0.1080.1920.1080" timestamp="1600461059641" />
     <state x="695" y="272" width="585" height="561" key="NewPhpClassDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1599769252017" />
     <state x="430" y="1245" key="SettingsEditor" timestamp="1600171331588">
       <screen x="0" y="1080" width="1920" height="1080" />
